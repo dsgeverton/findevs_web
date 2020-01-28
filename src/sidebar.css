@@ -1,0 +1,67 @@
+aside {
+  width: 320px;
+  background-color: #FFF;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+aside form {
+  margin-top: 45px;
+}
+
+aside form .input-block + .input-block {
+  margin-top: 40px;
+}
+
+aside form .input-group {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside form .input-group .input-block{
+  margin-top: 0;
+}
+
+aside form .input-block label {
+  color: #ACACAC;
+  font-size: 12pt;
+  font-weight: bold;
+  display: block;
+}
+
+aside form .input-block input {
+  width: 100%;
+  font-size: 14pt;
+  color: #666;
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+
+aside form button[type=submit] {
+  width: 100%;
+  background-color: #7d40e7;
+  border: 0;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 2px;
+  transition-duration: 0.5s;
+}
+aside form button[type=submit]:hover {
+  background-color: #6e41bb;
+}
